@@ -25,4 +25,7 @@ section ul:nth-child(odd){
 
 a:link{
     text-decoration:none;
+    background-color: aqua;
+    border: bottom 1px;
 }
+
