@@ -1,12 +1,20 @@
 /* CSS Comment */
-body {
+body{
     font: size 18px;
 }
 
-header,footer {
+header,footer{
     background-color:pink;
 }
 
-.site-title {
+.site-title{
     color:blue;
+}
+
+#my-image{
+    box-shadow:0px 0px 2px 1px black;
+}
+
+ul{
+    style:square;
 }
