@@ -26,7 +26,7 @@ ul li:nth-child(odd){
 a:link,a:visited{
     text-decoration:none;
     background-color: aqua;
-    border:1px solid green;
+    border:1px solid black;
 }
 
 a:hover,a:active{
