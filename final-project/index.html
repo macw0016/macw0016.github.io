@@ -11,63 +11,76 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
    <body>
-    <header>
+     <div class="wrapper">
+     <header>
     <!-- logo image -->
-    <img src="images/logo.png" alt="logo">
+    <section class="container">
+      <img src="images/logo.png" alt="logo">
+      <div class="home">
+      <a class="active" href="#home">Home</a></div>
+     </section>
     <!-- Navigation Bar -->
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#aboutus">About Us</a>
-        <a href="#services">Services</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
-      </div>
+    <nav class="bar">
+      <ul>
+        <li><a href="#aboutus">About Us</a></li>
+        <li ><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+     </nav>
       <!-- search bar -->
-      <div class="search-container">
+      <section class="search-container">
         <form action="thanks.html">
-          <input type="text" placeholder="Search.." name="search">
+          <input type="text" placeholder="Search" name="search"> 
           <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-      </div>
-     </header>
-    <main>  
+      </form> 
+    </section>
+      
+     </header></div>
+    <div class="container2">
+    <main>
+      <div class="mainbanner">
     <h1 id="home">Welcome to Three Star Media</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rerum autem laborum repudiandae reiciendis natus repellat temporibus inventore iusto. Quam cum nam voluptatum similique quae assumenda velit alias, sit impedit!</p>
+    <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rerum autem laborum repudiandae reiciendis natus repellat temporibus inventore iusto. Quam cum nam voluptatum similique quae assumenda velit alias, sit impedit!</p>
     <!-- connect with us button -->
     <button type="button">Connect with us <i class="fa-solid fa-caret-right"></i></button>
-    
+  </div>
+  
   <!-- about us -->
-   <div class="about us image">
-    <img src="images/about-us.jpg" alt="aboutus">
+   <div class="aboutus">
+   <img src="images/about-us.jpg" alt="aboutus">
    <h2 id="aboutus">About Us</h2>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veritatis delectus placeat! Culpa soluta perferendis enim maiores dolore quibusdam libero nihil consequatur inventore, facere nesciunt voluptatibus voluptatem sed modi provident.</p>
    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, sequi modi quam ipsam aspernatur veniam, quisquam explicabo ab dignissimos illum in numquam eius, officia soluta saepe cumque fugiat praesentium nostrum.</p>
   </div>
 
    <!-- services -->
+   
    <h2 id="services">Our Services</h2>
-   <img src="images/digital.jpg" alt="services">
+   <section class="services">
+    <div class="services img"><img src="images/digital.jpg" alt="services"></div>
    <h3>Digital Transformation</h3>
    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi aliquam veniam dolorum, reprehenderit enim, minima iste esse officiis laudantium dolor, non recusandae itaque! Recusandae repellat doloribus quidem, maiores temporibus facere?</p>
    <!-- digital plans button -->
-   <button class="digitalplans">Digital Plans <i class="fa-solid fa-caret-right"></i></button >
+   <button class="digitalplans">Digital Plans <i class="fa-solid fa-caret-right"></i></button ></section>
     
     <!-- marketing -->
-    <div class="marketing img">
-    <img src="images/marketing.jpg" alt="marketing">
-    </div>
-    <h3>Marketing</h3>
+    <section class="marketing">
+    <div class="marketing img"><img src="images/marketing.jpg" alt="marketing"></div>
+     <h3>Marketing</h3>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, ipsa? Natus recusandae ut eos possimus vitae, ducimus, nesciunt harum nam nemo ea accusantium temporibus. Tempore saepe quisquam porro aliquam velit?</p>
     <!-- marketing plans button -->
-    <button class="marketingplans">Marketing Plans <i class="fa-solid fa-caret-right"></i> </button>
+    <button class="marketingplans">Marketing Plans <i class="fa-solid fa-caret-right"></i> </button></section>
+  
+</section>
 
     <!-- video production -->
-    <div class="video production">
+    <div class="videoproduction">
       <img src="images/video.jpg" alt="video">
       <h3>Video Production</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro molestias non in amet assumenda reiciendis harum architecto sed temporibus, atque consequuntur, natus id? Quas architecto culpa omnis minus exercitationem libero?</p>
        <!-- video production button -->
-      <button class="video plans">Video Plans <i class="fa-solid fa-caret-right"></i></button>
+      <button class="videoplans">Video Plans <i class="fa-solid fa-caret-right"></i></button>
     </div>
     
     <!-- web development -->
@@ -76,7 +89,7 @@
       <h3>Web Development</h3>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas mollitia quis magnam iusto, laudantium recusandae tenetur placeat ducimus praesentium porro! Repellat architecto, quisquam ipsa voluptate minima quo cum impedit facilis!</p>
     <!-- web plans button -->
-    <button class="web plans">Web Plans <i class="fa-solid fa-caret-right"></i></button>
+    <button class="webplans">Web Plans <i class="fa-solid fa-caret-right"></i></button>
     </div>
     
     <!-- print -->
@@ -85,28 +98,32 @@
       <h3>Print</h3>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores voluptate laboriosam deserunt! Porro hic dolorem, voluptatibus adipisci voluptatem similique aliquam, odio temporibus quibusdam est distinctio quisquam dicta odit.</p>
       <!-- print plans button -->
-      <button class="print plans">Print Plans <i class="fa-solid fa-caret-right"></i></button>
+      <button class="printplans">Print Plans <i class="fa-solid fa-caret-right"></i></button>
     </div>
 
     <!-- vision -->
+    <section class="vision">
     <h3>Our Vision</h3>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia in recusandae, dicta voluptatem velit esse accusantium ratione voluptas ipsum neque, aliquid perferendis iste asperiores, delectus quod magnam molestias quas fugit.</p>
-    <button class="learn more">Learn More <i class="fa-solid fa-caret-right"></i></button>
+    <button class="learn more">Learn More <i class="fa-solid fa-caret-right"></i></button> </section>
 
     <!-- team -->
     <h2 id="team">Our Team</h2>
-    <div class="john">
+    
     <img src="images/john.jpg" alt="john">
-    <h3>John Doe</h3>
+    <div class="john">
+      <h3>John Doe</h3>
     <h5>CEO and Co-owner</h5>
+  
     <hr>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ullam necessitatibus eligendi dolorem ea fugiat veniam animi eum consectetur excepturi quod, voluptate quae cum voluptatem. Maiores fuga eum provident magnam?</p>
     </div>
     
-    <div class="bob">
+    
        <img src="images/bob.jpg" alt="bob">
-       <h3>Bob Rite</h3>
-       <h5>CFO and Co-owner</h5>
+        <div class="bob">
+        <h3>Bob Rite</h3>
+         <h5>CFO and Co-owner</h5>
        <hr>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolore provident qui illum, voluptates tempora facilis, aspernatur voluptatibus, id cupiditate excepturi porro? Cupiditate quasi neque praesentium voluptatibus repellat consectetur quia.</p>
     </div>
@@ -117,7 +134,7 @@
      <div class="box">
       <form>
       <div>
-          <label for="name"> Name</label>
+          <label for="name"> Full Name</label>
           <input type="text" id="name" name="name">
       </div>
       <div>
@@ -126,7 +143,7 @@
       </div>
       <div>
           <label for="message"> Message</label>
-          <textarea id="message" name="message"></textarea>
+          <input type="text" id="message" name="message">
       </div>
       <div>
           <button class="send">Send</button>
@@ -167,9 +184,11 @@
       
         <footer>
           <p>&copy; Copyright Three Star Media,2020</p>
-          <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a>
-          </p>
+          <p>All images are taken from
+            <a href="https://unsplash.com/">Unsplash</a>
+          </p></div>
         </footer>
+      
 
 </body>
 </html>
